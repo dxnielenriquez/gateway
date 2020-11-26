@@ -11,7 +11,7 @@
         {
             $this->gatewayDTO = new GatewayDTO();
             $this->url='https://productodbs.herokuapp.com/Actores/actor/';
-            $this->link= 'https://prodoctauth.herokuapp.com//usuario/';
+            $this->link= 'https://prodoctauth.herokuapp.com/usuario/';
             $this->linkPeli='https://productodbs.herokuapp.com/Peliculas/Pelicula/';
             $this->linkCate='https://productodbs.herokuapp.com/Categorias/Categoria/';
             
