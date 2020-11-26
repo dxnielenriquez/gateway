@@ -48,7 +48,11 @@
                    $gatewayBL->categoria($_SERVER["REQUEST_METHOD"]);
                    break;
             }
-      
+            case "usuario":
+                  {
+                         $gatewayBL->usuario($_SERVER["REQUEST_METHOD"]);
+                         break;
+                  }
     
       
   }
